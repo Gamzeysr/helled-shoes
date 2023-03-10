@@ -3,7 +3,7 @@ import Main from "./components/Main/Main";
 import Navbar from "./components/Navbar/Navbar";
 import './Sass/App.scss';
 
-import data from "./util/data";
+// import { data } from "./util/data.js";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     < >
       <Header />
       <Navbar />
-      <Main data={data} />
+      <Main />
 
     </>
   );
