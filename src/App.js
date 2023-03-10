@@ -3,16 +3,17 @@ import Main from "./components/Main/Main";
 import Navbar from "./components/Navbar/Navbar";
 import './Sass/App.scss';
 
+import data from "./util/data";
 
 
 function App() {
   return (
-    <div >
+    < >
       <Header />
       <Navbar />
-      <Main />
+      <Main data={data} />
 
-    </div>
+    </>
   );
 }
 
