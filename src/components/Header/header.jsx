@@ -2,7 +2,9 @@ import HeaderStyle from "../../Sass/Header.scss";
 
 const header = () => {
     return (
-        <div>header</div>
+        <div className="header">
+            <h1>Popular Helled Shoes</h1>
+        </div>
     )
 }
 
